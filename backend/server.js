@@ -15,8 +15,6 @@ require("dotenv").config();
 
 const mongoURI = process.env.MONGO_URI;
 
-const variable=10
-
 const app = express();
 const PORT = process.env.PORT || 3001;
 app.use(cors());
